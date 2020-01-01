@@ -1,0 +1,17 @@
+# see https://github.com/Homebrew/homebrew-bundle
+cask_args appdir: "/Applications"
+
+cask 'firefox'
+cask 'google-chrome'
+cask 'keka'
+cask 'slack'
+cask 'vlc'
+cask 'itsycal'
+cask 'jetbrains-toolbox'
+cask 'postman'
+cask 'sourcetree'
+
+brew 'git'
+brew 'curl'
+brew 'tree'
+brew 'wget'

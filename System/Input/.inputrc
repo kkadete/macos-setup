@@ -1,0 +1,29 @@
+# Use Unicode & do NOT use the "8bit hack" to input/output non-ASCII characters
+# See http://code.google.com/p/iterm2/wiki/Keybindings
+set input-meta on
+set output-meta on
+set convert-meta off
+
+# When pressing up or down arrows, show only history entries that match what was already typed
+"\e[5~": history-search-backward
+"\e[6~": history-search-forward
+
+# Turn on case insensitivity for tab-completion
+# Ex.: type "doc<tab>" to search for "Documents"
+set completion-ignore-case On
+
+# Disable terminal tab-completion bell
+set bell-style none
+
+# Words which have more than one possible tab-completion that matches will be listed immediately
+set show-all-if-ambiguous on
+
+# Number of possible tab-completions that is displayed
+set completion-query-items 350
+
+# Dont use pages to display tab-completions
+set page-completions off
+
+# key bingings to be used in readline
+set editing-mode vi
+set keymap vi-command
