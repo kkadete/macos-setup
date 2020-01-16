@@ -15,6 +15,7 @@ Applications that don't require any special configuration.
 * Curl
 * Tree
 * Wget
+* CopyQ
 
 ## Instalation
 
