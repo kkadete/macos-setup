@@ -41,5 +41,5 @@ cat extensions.list | xargs -n 1 code --install-extension
 
 - Backup VSCode Extensions
 ```zsh
-code --list-extensions >> extensions.list
+code --list-extensions > extensions.list
 ```
