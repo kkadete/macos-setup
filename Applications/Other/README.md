@@ -16,6 +16,9 @@ Applications that don't require any special configuration.
 * Tree
 * Wget
 * CopyQ
+* Docker
+* Gradle
+* Maven
 
 ## Instalation
 
@@ -25,4 +28,10 @@ Go to the Brewfile directory and install all applications.
 
 ```zsh
 brew bundle
+```
+
+Or install the applications using the brew command:
+
+```zsh
+brew install <application>
 ```
