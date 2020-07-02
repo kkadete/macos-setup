@@ -12,6 +12,7 @@ cask 'postman'
 cask 'sourcetree'
 cask 'obs'
 cask 'docker'
+cask 'keystore-explorer'
 
 brew 'git'
 brew 'curl'
