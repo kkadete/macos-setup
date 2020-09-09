@@ -1,87 +1,92 @@
 {
-    "[javascript]": { 
-        "editor.formatOnSave": false 
-    },
-    "[javascriptreact]": { 
-        "editor.formatOnSave": false 
-    },
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.colorTheme": "Monokai",
-    "workbench.activityBar.visible": true,
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.statusBar.feedback.visible": false,
-    "workbench.tips.enabled": false,
-    "workbench.enableExperiments": false,
-    "workbench.editor.tabSizing": "shrink",
-    "editor.fontSize": 13,
-    "editor.tabSize": 2,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.wordWrap": "on",
-    "editor.minimap.enabled": false,
-    "editor.detectIndentation": false,
-    "editor.dragAndDrop": false,
-    "editor.renderLineHighlight": "all",
-    "editor.formatOnSave": true,
-    "editor.rulers": [150],
-    "problems.decorations.enabled": false,
-    "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false,
-    "explorer.openEditors.visible": 0,
-    "explorer.decorations.colors": false,
-    "explorer.autoReveal": false,
-    "breadcrumbs.enabled": true,
-    "breadcrumbs.symbolPath": "off",
-    "terminal.integrated.rendererType": "dom",
-    "extensions.showRecommendationsOnlyOnDemand": true,
-    "extensions.ignoreRecommendations": true,
-    "files.insertFinalNewline": true,
-    "files.exclude": {
-      "**/.*lintcache": true,
-      "**/.localized": true,
-      "**/build": true,
-      "**/coverage": true,
-      "**/dist": true,
-      "**/node_modules/": true,
-      "**/package-lock.json": true
-    },
-    "html.autoClosingTags": false,
-    "npm.enableScriptExplorer": true,
-    "material-icon-theme.folders.theme": "classic",
-    "material-icon-theme.hidesExplorerArrows": true,
-    "material-icon-theme.folders.color": "#90a4ae",
-    "material-icon-theme.opacity": 0.8,
-    "bracketPairColorizer.activeScopeCSS": [
-      "borderColor : {color}; opacity: 0.5",
-      "backgroundColor : {color}"
-    ],
-    "eslint.autoFixOnSave": true,
-    "bracketPairColorizer.highlightActiveScope": true,
-    "files.autoSave": "afterDelay",
-    "[json]": {
-      "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-    },
-    "terminal.external.osxExec": "iTerm.app",
-    "window.closeWhenEmpty": true,
-    "workbench.tree.indent": 16,
-    "update.showReleaseNotes": false,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "files.trimTrailingWhitespace": true,
-    "files.defaultLanguage": "javascript",
-    "eslint.alwaysShowStatus": true,
-    "editor.tabCompletion": "on",
-    "editor.snippetSuggestions": "top",
-    "editor.scrollBeyondLastLine": false,
-    "editor.renderWhitespace": "all",
-    "editor.formatOnPaste": true,
-    "editor.fontFamily": "'Dank Mono', 'Operator Mono', 'Fira Code', 'Source Code Pro for Powerline', Menlo, Monaco, 'Courier New', monospace",
-    "editor.cursorBlinking": "phase",
-    "prettier.disableLanguages": [
-      "javascript",
-      "javascriptreact"
-    ]
-  }
-  
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorTheme": "Monokai",
+  "workbench.activityBar.visible": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.tips.enabled": false,
+  "workbench.enableExperiments": false,
+  "workbench.editor.tabSizing": "shrink",
+  "editor.fontSize": 13,
+  "editor.tabSize": 2,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.detectIndentation": false,
+  "editor.dragAndDrop": false,
+  "editor.renderLineHighlight": "all",
+  "editor.formatOnSave": true,
+  "editor.rulers": [
+    150
+  ],
+  "problems.decorations.enabled": false,
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "explorer.openEditors.visible": 0,
+  "explorer.decorations.colors": false,
+  "explorer.autoReveal": false,
+  "breadcrumbs.enabled": true,
+  "breadcrumbs.symbolPath": "off",
+  "terminal.integrated.rendererType": "dom",
+  "extensions.showRecommendationsOnlyOnDemand": true,
+  "extensions.ignoreRecommendations": true,
+  "files.insertFinalNewline": true,
+  "files.exclude": {
+    "**/.*lintcache": true,
+    "**/.localized": true,
+    "**/build": true,
+    "**/coverage": true,
+    "**/dist": true,
+    "**/node_modules/": true,
+    "**/package-lock.json": true
+  },
+  "html.autoClosingTags": false,
+  "npm.enableScriptExplorer": true,
+  "material-icon-theme.folders.theme": "classic",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "material-icon-theme.folders.color": "#90a4ae",
+  "material-icon-theme.opacity": 0.8,
+  "bracketPairColorizer.activeScopeCSS": [
+    "borderColor : {color}; opacity: 0.5",
+    "backgroundColor : {color}"
+  ],
+  "eslint.autoFixOnSave": true,
+  "bracketPairColorizer.highlightActiveScope": true,
+  "files.autoSave": "afterDelay",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "terminal.external.osxExec": "iTerm.app",
+  "window.closeWhenEmpty": true,
+  "workbench.tree.indent": 16,
+  "update.showReleaseNotes": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "files.trimTrailingWhitespace": true,
+  "files.defaultLanguage": "plaintext",
+  "eslint.alwaysShowStatus": true,
+  "editor.tabCompletion": "on",
+  "editor.snippetSuggestions": "top",
+  "editor.scrollBeyondLastLine": false,
+  "editor.renderWhitespace": "all",
+  "editor.formatOnPaste": true,
+  "editor.fontFamily": "'Dank Mono', 'Operator Mono', 'Fira Code', 'Source Code Pro for Powerline', Menlo, Monaco, 'Courier New', monospace",
+  "editor.cursorBlinking": "phase",
+  "prettier.disableLanguages": [
+    "javascript",
+    "javascriptreact"
+  ],
+  "javascript.suggest.enabled": false,
+  "typescript.suggest.enabled": false,
+  "workbench.editorAssociations": [],
+  "http.proxyAuthorization": null
+}
