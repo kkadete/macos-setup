@@ -7,9 +7,6 @@
     <em>:hammer_and_wrench: Development Environment Setup for macOS</em>
   </p>
   <p>
-    <a href="https://github.com/kkadete/macos-setup/stargazers">
-      <img src="https://img.shields.io/github/stars/kkadete/macos-setup.svg" alt="Stars" />
-    </a>
     <a href="https://github.com/kkadete/macos-setup/commits/master">
       <img src="https://img.shields.io/github/last-commit/kkadete/macos-setup.svg" alt="Last Commit" />
     </a>
