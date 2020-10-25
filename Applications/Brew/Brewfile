@@ -18,7 +18,10 @@ cask 'font-jetbrains-mono'
 cask 'font-menlo-for-powerline'
 cask 'microsoft-teams'
 cask 'jabra-direct'
-
+cask 'microsoft-teams'
+cask 'skype-for-business'
+cask 'whatsapp'
+  
 brew 'git'
 brew 'curl'
 brew 'tree'
